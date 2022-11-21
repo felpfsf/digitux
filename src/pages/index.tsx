@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { Hero } from '../components/Hero'
 import { Clients } from '../components/Clients'
 import { OurServices } from '../components/OurServices'
+import { TeamSection } from '../components/TeamSection'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Clients />
       <OurServices />
+      <TeamSection />
     </motion.section>
   )
 }
