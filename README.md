@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DigitUX
 
-## Getting Started
+A Digital Marketing and Web Developer Agency website. It includes a hero section, services, team members and testimonials. It also includes a page 'About Us', 'Services', Projects and Contact pages. It was designed by **Hmimi Chioukh**, you can check the figma file [here](https://www.figma.com/file/oCVR7T1gYq6qjxcDRAFnUD/Web-agency-%2F-Portfolio-(Community)?node-id=142%3A2478&t=XTC79ajs5u5WNyUz-0)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![image](/docs/title_banner.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![GitHub repo size](https://img.shields.io/github/repo-size/felpfsf/digitux-web-agency) ![GitHub language count](https://img.shields.io/github/languages/count/felpfsf/digitux-web-agency) ![GitHub top language](https://img.shields.io/github/languages/top/felpfsf/digitux-web-agency)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Learning
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Learning and practigin react-router-dom, framer motion for transitioning effects and tailwind.
 
-## Learn More
+## 🛠 Stacks
 
-To learn more about Next.js, take a look at the following resources:
+**Frontend:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- React
+- [React Router Dom]
+- [TailwindCSS]
+- [Framer Motion]
+- [Vite Bundler]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+- [x] Mobile support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Live Demo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check [here](https://digitux-web-agency.vercel.app/)
+
+## Autor
+
+<div align='center'>
+
+ <img style="border:4px solid orange; border-radius: 100%; padding:1px;" src="https://github.com/felpfsf.png" width="100px;" alt=""/>
+ <br />
+ <sub><b>Felipe F.</b></sub>
+
+Made with ❤️ by Felipe F. 👋🏽 Keep in touch!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/felipefsf/)](https://www.linkedin.com/in/felipefsf/)
+
+</div>
