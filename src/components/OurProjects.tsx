@@ -1,4 +1,7 @@
 import Image from 'next/image'
+import Link from 'next/link'
+
+import { FiChevronRight } from 'react-icons/fi'
 
 import proj01 from '../assets/project-01.png'
 import proj02 from '../assets/project-02.png'
@@ -76,6 +79,14 @@ export function OurProjects() {
             <p>Delex Relay</p>
           </div>
         </div>
+      </div>
+      <div className='flex justify-center'>
+        <Link
+          href={'/projects'}
+          className='w-60 mt-14 py-4 border-2 rounded flex items-center justify-center gap-2 hover:bg-white hover:text-black duration-300 ease-in-out'>
+          Explore More Projects
+          <FiChevronRight size={24} />
+        </Link>
       </div>
     </section>
   )
