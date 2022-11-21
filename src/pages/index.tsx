@@ -4,6 +4,7 @@ import { Hero } from '../components/Hero'
 import { Clients } from '../components/Clients'
 import { OurServices } from '../components/OurServices'
 import { TeamSection } from '../components/TeamSection'
+import { OurProjects } from '../components/OurProjects'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Clients />
       <OurServices />
       <TeamSection />
+      <OurProjects />
     </motion.section>
   )
 }
