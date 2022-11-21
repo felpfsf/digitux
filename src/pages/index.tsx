@@ -5,6 +5,7 @@ import { Clients } from '../components/Clients'
 import { OurServices } from '../components/OurServices'
 import { TeamSection } from '../components/TeamSection'
 import { OurProjects } from '../components/OurProjects'
+import { Tesimonials } from '../components/Testimonials'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <OurServices />
       <TeamSection />
       <OurProjects />
+      <Tesimonials />
     </motion.section>
   )
 }
