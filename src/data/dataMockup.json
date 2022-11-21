@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "UI/UX Design ,Web Design",
+      "description": "Makeing your product clean and easy to use it the important thing for us"
+    },
+    {
+      "id": 2,
+      "title": "Web/App Development",
+      "description": "Our Team will use the top  technologies to develope your product"
+    },
+    {
+      "id": 3,
+      "title": "Marketing Digital,Social Media",
+      "description": "Grow your communty with our inbound marketing and social media merketing"
+    },
+    {
+      "id": 4,
+      "title": "Brand Stratgey &Art Diraction",
+      "description": "Help you to create an unique brand that stay in Clients Head"
+    },
+    {
+      "id": 5,
+      "title": "Visual Identity Logo Brand",
+      "description": "A logo Can make a big diffrance our team will Help you with that"
+    },
+    {
+      "id": 6,
+      "title": "Video / Ads Production",
+      "description": "What better way to reach user then with a good video to win their trust"
+    }
+  ]
+}
