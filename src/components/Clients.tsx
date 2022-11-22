@@ -15,7 +15,7 @@ export function Clients() {
         <Image
           src={logoMicrosoft}
           alt={'microsoft company logo'}
-          className='w-32 h-7 xl:h-8'
+          className='w-32 h-7 xl:h-8 xl:w-auto'
         />
         <Image
           src={logoGoogle}
@@ -25,7 +25,7 @@ export function Clients() {
         <Image
           src={logoSpotify}
           alt={'Spotify company logo'}
-          className='w-32 h-7 xl:h-10'
+          className='w-32 h-7 xl:h-10 xl:w-auto'
         />
         <Image
           src={logoTesla}
