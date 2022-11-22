@@ -26,9 +26,9 @@ export function OurProjects() {
           </div>
           <div className='mt-2'>
             <p>
-              <strong>UI/UX</strong>
+              <strong>UI/UX Design</strong>
             </p>
-            <p>Delex Relay</p>
+            <p className='text-sm text-white/80'>Delex Relay</p>
           </div>
         </div>
         {/* card 2 */}
@@ -38,9 +38,9 @@ export function OurProjects() {
           </div>
           <div className='mt-2'>
             <p>
-              <strong>UI/UX</strong>
+              <strong>Web / app Development</strong>
             </p>
-            <p>Delex Relay</p>
+            <p className='text-sm text-white/80'>Cooke Me</p>
           </div>
         </div>
         {/* card 3 */}
@@ -50,9 +50,9 @@ export function OurProjects() {
           </div>
           <div className='mt-2'>
             <p>
-              <strong>UI/UX</strong>
+              <strong>UI/UX Design</strong>
             </p>
-            <p>Delex Relay</p>
+            <p className='text-sm text-white/80'>Booking.com</p>
           </div>
         </div>
         {/* card 4 */}
@@ -62,9 +62,9 @@ export function OurProjects() {
           </div>
           <div className='mt-2'>
             <p>
-              <strong>UI/UX</strong>
+              <strong>UI/UX Design</strong>
             </p>
-            <p>Delex Relay</p>
+            <p className='text-sm text-white/80'>Homely</p>
           </div>
         </div>
         {/* card 5 */}
@@ -74,9 +74,9 @@ export function OurProjects() {
           </div>
           <div className='mt-2'>
             <p>
-              <strong>UI/UX</strong>
+              <strong>UI/UX Design</strong>
             </p>
-            <p>Delex Relay</p>
+            <p className='text-sm text-white/80'>ADOC</p>
           </div>
         </div>
       </div>
