@@ -30,5 +30,28 @@
       "title": "Video / Ads Production",
       "description": "What better way to reach user then with a good video to win their trust"
     }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "testimonial": "Our team of digital product creators and Tch Bring Skilled will take your idea to the next level and help you with your product",
+      "picUrl": "testimonial-pic-01.png",
+      "name": "Smail yefsssah",
+      "role": "CEO Innova"
+    },
+    {
+      "id": 2,
+      "testimonial": "Our team of digital product creators and Tch Bring Skilled will take your idea to the next level and help you with your product",
+      "picUrl": "testimonial-pic-02.png",
+      "name": "Djamila Malak",
+      "role": "Co-Founder RobaKabyle"
+    },
+    {
+      "id": 3,
+      "testimonial": "Our team of digital product creators and Tch Bring Skilled will take your idea to the next level and help you with your product",
+      "picUrl": "testimonial-pic-02.png",
+      "name": "Esteban Schneider",
+      "role": "CTO Ratke - Shields"
+    }
   ]
 }
