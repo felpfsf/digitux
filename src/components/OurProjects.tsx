@@ -20,7 +20,7 @@ export function OurProjects() {
       </h1>
       <div className='mt-28 flex flex-wrap items-center justify-center gap-10 xl:gap-0 xl:grid grid-cols-3'>
         {/* card 1 */}
-        <div className='max-w-[350px]'>
+        <div className='w-[350px]'>
           <div>
             <Image src={proj01} alt={''} className='w-full h-full' />
           </div>
@@ -32,7 +32,7 @@ export function OurProjects() {
           </div>
         </div>
         {/* card 2 */}
-        <div className='max-w-[350px]'>
+        <div className='w-[350px]'>
           <div>
             <Image src={proj02} alt={''} className='w-full h-full' />
           </div>
@@ -44,7 +44,7 @@ export function OurProjects() {
           </div>
         </div>
         {/* card 3 */}
-        <div className='max-w-[350px]'>
+        <div className='w-[350px]'>
           <div>
             <Image src={proj03} alt={''} className='w-full h-full' />
           </div>
@@ -56,7 +56,7 @@ export function OurProjects() {
           </div>
         </div>
         {/* card 4 */}
-        <div className='max-w-[350px]'>
+        <div className='w-[350px]'>
           <div>
             <Image src={proj04} alt={''} className='w-full h-full' />
           </div>
@@ -68,7 +68,7 @@ export function OurProjects() {
           </div>
         </div>
         {/* card 5 */}
-        <div className='max-w-[350px] row-start-1 row-span-2 col-start-3'>
+        <div className='w-[350px] row-start-1 row-span-2 col-start-3'>
           <div className='h-[305px] xl:h-full overflow-hidden'>
             <Image src={proj05} alt={''} className='w-full' />
           </div>
