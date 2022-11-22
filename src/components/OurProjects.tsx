@@ -1,13 +1,7 @@
-import Image from 'next/image'
 import Link from 'next/link'
-
 import { FiChevronRight } from 'react-icons/fi'
-
-import proj01 from '../assets/project-01.png'
-import proj02 from '../assets/project-02.png'
-import proj03 from '../assets/project-03.png'
-import proj04 from '../assets/project-04.png'
-import proj05 from '../assets/project-05.png'
+import { ProjectsCards } from './ProjectsCards'
+import data from '../data/dataMockup.json'
 
 export function OurProjects() {
   return (
@@ -19,66 +13,9 @@ export function OurProjects() {
         The work we did that made our Client happy and satisfied
       </h1>
       <div className='mt-28 flex flex-wrap items-center justify-center gap-10 xl:gap-0 xl:grid grid-cols-3'>
-        {/* card 1 */}
-        <div className='w-[350px]'>
-          <div>
-            <Image src={proj01} alt={''} className='w-full h-full' />
-          </div>
-          <div className='mt-2'>
-            <p>
-              <strong>UI/UX Design</strong>
-            </p>
-            <p className='text-sm text-white/80'>Delex Relay</p>
-          </div>
-        </div>
-        {/* card 2 */}
-        <div className='w-[350px]'>
-          <div>
-            <Image src={proj02} alt={''} className='w-full h-full' />
-          </div>
-          <div className='mt-2'>
-            <p>
-              <strong>Web / app Development</strong>
-            </p>
-            <p className='text-sm text-white/80'>Cooke Me</p>
-          </div>
-        </div>
-        {/* card 3 */}
-        <div className='w-[350px]'>
-          <div>
-            <Image src={proj03} alt={''} className='w-full h-full' />
-          </div>
-          <div className='mt-2'>
-            <p>
-              <strong>UI/UX Design</strong>
-            </p>
-            <p className='text-sm text-white/80'>Booking.com</p>
-          </div>
-        </div>
-        {/* card 4 */}
-        <div className='w-[350px]'>
-          <div>
-            <Image src={proj04} alt={''} className='w-full h-full' />
-          </div>
-          <div className='mt-2'>
-            <p>
-              <strong>UI/UX Design</strong>
-            </p>
-            <p className='text-sm text-white/80'>Homely</p>
-          </div>
-        </div>
-        {/* card 5 */}
-        <div className='w-[350px] row-start-1 row-span-2 col-start-3'>
-          <div className='h-[305px] xl:h-full overflow-hidden'>
-            <Image src={proj05} alt={''} className='w-full' />
-          </div>
-          <div className='mt-2'>
-            <p>
-              <strong>UI/UX Design</strong>
-            </p>
-            <p className='text-sm text-white/80'>ADOC</p>
-          </div>
-        </div>
+        {data.projects.map(props => (
+          <ProjectsCards key={props.id} {...props} />
+        ))}
       </div>
       <div className='flex justify-center'>
         <Link
