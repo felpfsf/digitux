@@ -14,9 +14,23 @@ export function Tesimonials() {
         You still hesitate about working with Us ? Check what They say about Us
       </h1>
       {/* To-do: testimonial slider */}
-      <Swiper>
+      <div className='hidden md:block'>
+        <Swiper slidesPerView={2}>
+          {data.testimonials.map(props => (
+            <SwiperSlide key={props.id} className='flex justify-center'>
+              {<TestimonialCard {...props} />}
+            </SwiperSlide>
+          ))}
+          <div className='mt-14 flex justify-center gap-12'>
+            <SwiperButtonPrev />
+            <SwiperButtonNext />
+          </div>
+        </Swiper>
+      </div>
+      <div className='md:hidden'>
+        <Swiper>
         {data.testimonials.map(props => (
-          <SwiperSlide key={props.id}>
+          <SwiperSlide key={props.id} className='flex justify-center gap-9'>
             {<TestimonialCard {...props} />}
           </SwiperSlide>
         ))}
@@ -25,6 +39,7 @@ export function Tesimonials() {
           <SwiperButtonNext />
         </div>
       </Swiper>
+      </div>
     </section>
   )
 }

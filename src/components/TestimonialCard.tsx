@@ -16,10 +16,10 @@ export function TestimonialCard({
 }: ITestimonialCardProps) {
   return (
     <>
-      <div className='mt-14 flex flex-col gap-8'>
+      <div className='max-w-md mt-14 flex flex-col gap-8'>
         <p className='text-white/60'>{testimonial}</p>
         <div className='flex items-center gap-2'>
-          <Image src={`/${picUrl}`} alt='' width={69} height={69} />
+          <Image src={`/${picUrl}`} alt='' width={69} height={69} quality={100} className='rounded-full'/>
           <div>
             <h2 className='text-lg font-semibold'>{name}</h2>
             <p className='text-white/80'>{role}</p>
