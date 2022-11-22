@@ -2,13 +2,12 @@ import { useSwiper } from 'swiper/react'
 
 import { FiArrowLeft, FiArrowRight } from 'react-icons/fi'
 
-
 const SwiperButtonPrev = () => {
   const swiper = useSwiper()
 
   return (
     <span
-      className='w-12 h-12 rounded-full bg-digitux-primary flex items-center justify-center'
+      className='w-12 h-12 rounded-full bg-digitux-primary flex items-center justify-center cursor-pointer'
       onClick={() => swiper.slidePrev()}>
       <FiArrowLeft size={20} />
     </span>
@@ -20,11 +19,20 @@ const SwiperButtonNext = () => {
 
   return (
     <span
-      className='w-12 h-12 rounded-full bg-digitux-primary flex items-center justify-center'
+      className='w-12 h-12 rounded-full bg-digitux-primary flex items-center justify-center cursor-pointer'
       onClick={() => swiper.slideNext()}>
       <FiArrowRight size={20} />
     </span>
   )
 }
 
-export { SwiperButtonNext, SwiperButtonPrev }
+export const SwiperButton = () => {
+  return (
+    <div className='mt-14 flex justify-center gap-12'>
+      <SwiperButtonPrev />
+      <SwiperButtonNext />
+    </div>
+  )
+}
+
+export { SwiperButtonPrev, SwiperButtonNext }
