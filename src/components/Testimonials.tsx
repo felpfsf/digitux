@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { SwiperButtonNext, SwiperButtonPrev } from './SwiperButton'
+import { SwiperButton } from './SwiperButton'
 
 import { TestimonialCard } from './TestimonialCard'
 
@@ -21,24 +21,18 @@ export function Tesimonials() {
               {<TestimonialCard {...props} />}
             </SwiperSlide>
           ))}
-          <div className='mt-14 flex justify-center gap-12'>
-            <SwiperButtonPrev />
-            <SwiperButtonNext />
-          </div>
+          <SwiperButton />
         </Swiper>
       </div>
       <div className='md:hidden'>
         <Swiper>
-        {data.testimonials.map(props => (
-          <SwiperSlide key={props.id} className='flex justify-center gap-9'>
-            {<TestimonialCard {...props} />}
-          </SwiperSlide>
-        ))}
-        <div className='mt-14 flex justify-center gap-12'>
-          <SwiperButtonPrev />
-          <SwiperButtonNext />
-        </div>
-      </Swiper>
+          {data.testimonials.map(props => (
+            <SwiperSlide key={props.id} className='flex justify-center gap-9'>
+              <TestimonialCard {...props} />
+            </SwiperSlide>
+          ))}
+          <SwiperButton />
+        </Swiper>
       </div>
     </section>
   )
