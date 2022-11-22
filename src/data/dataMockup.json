@@ -1,4 +1,34 @@
 {
+  "teamMembers": [
+    {
+      "id": 1,
+      "imgUrl": "team-member-01.png",
+      "imgAlt": "",
+      "name": "Jamila Smail",
+      "position": "Co-Founder"
+    },
+    {
+      "id": 2,
+      "imgUrl": "team-member-02.jpg",
+      "imgAlt": "",
+      "name": "Farouk Dari",
+      "position": "Full Stack Developer"
+    },
+    {
+      "id": 3,
+      "imgUrl": "team-member-03.jpg",
+      "imgAlt": "",
+      "name": "Aksel Juba",
+      "position": "Graphic Designer"
+    },
+    {
+      "id": 4,
+      "imgUrl": "team-member-04.jpg",
+      "imgAlt": "",
+      "name": "Dihia Numida",
+      "position": "UI/UX Designer"
+    }
+  ],
   "projects": [
     {
       "id": 1,
