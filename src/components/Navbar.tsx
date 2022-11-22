@@ -43,8 +43,8 @@ export function Navbar() {
       <nav
         className={
           isNavOpen
-            ? 'fixed top-0 right-0 w-4/5 h-screen text-center pt-28 bg-digitux-dark/80 backdrop-blur-3xl ease-in-out duration-300'
-            : 'fixed top-0 -right-full w-4/5 h-screen text-center pt-28 bg-digitux-dark/80 backdrop-blur-3xl ease-in-out duration-300'
+            ? 'fixed top-0 right-0 w-4/5 h-screen text-center pt-28 bg-digitux-dark/95 backdrop-blur-[80px] ease-in-out duration-300'
+            : 'fixed top-0 -right-full w-4/5 h-screen text-center pt-28 bg-digitux-dark/95 backdrop-blur-[80px] ease-in-out duration-300'
         }>
         <ul>
           {menuOptions.map(({ id, label, navUrl }) => (
