@@ -1,4 +1,36 @@
 {
+  "projects": [
+    {
+      "id": 1,
+      "imgUrl": "project-01.png",
+      "spec": "UI/UX Design",
+      "project": "Delex Relay"
+    },
+    {
+      "id": 2,
+      "imgUrl": "project-02.png",
+      "spec": "Web / app Development",
+      "project": "Cooke Me"
+    },
+    {
+      "id": 3,
+      "imgUrl": "project-03.png",
+      "spec": "UI/UX Design",
+      "project": "Booking.com"
+    },
+    {
+      "id": 4,
+      "imgUrl": "project-04.png",
+      "spec": "UI/UX Design",
+      "project": "Homely"
+    },
+    {
+      "id": 5,
+      "imgUrl": "project-05.png",
+      "spec": "UI/UX Design",
+      "project": "ADOC"
+    }
+  ],
   "services": [
     {
       "id": 1,
