@@ -15,7 +15,7 @@ export function Hero() {
             src={arrow}
             quality={100}
             alt={''}
-            className='hidden 2xl:block h-[432px] absolute top-4 -left-28'
+            className='hidden 2xl:block w-auto h-[432px] absolute top-4 -left-28'
           />
           <p className='font-bold xl:text-[22px]'>Hello,</p>
           <h1 className='text-[40px] xl:text-[48px] font-bold mt-4 leading-[80px]'>
