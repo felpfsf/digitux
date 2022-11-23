@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
 import { OurProcess } from '../../components/OurProcess'
+import { OurServices } from '../../components/OurServices'
 import { ServicesHero } from '../../components/ServicesHero'
+import { Tesimonials } from '../../components/Testimonials'
 
 export default function Services() {
   return (
@@ -11,6 +13,8 @@ export default function Services() {
       className='max-w-[1440px] w-full mx-auto'>
       <ServicesHero />
       <OurProcess />
+      <OurServices />
+      <Tesimonials />
     </motion.section>
   )
 }
