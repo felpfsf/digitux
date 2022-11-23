@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 import { Hero } from '../components/Hero'
 import { Clients } from '../components/Clients'
-import { OurServices } from '../components/OurServices'
+import { ServicesWeOffer } from '../components/ServicesWeOffer'
 import { TeamSection } from '../components/TeamSection'
 import { OurProjects } from '../components/OurProjects'
 import { Tesimonials } from '../components/Testimonials'
@@ -16,7 +16,7 @@ export default function Home() {
       className='max-w-[1440px] w-full mx-auto'>
       <Hero />
       <Clients />
-      <OurServices />
+      <ServicesWeOffer />
       <TeamSection />
       <OurProjects />
       <Tesimonials />
