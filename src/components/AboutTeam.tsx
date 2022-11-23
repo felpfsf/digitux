@@ -2,11 +2,8 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import { SwiperButton } from './SwiperButton'
 
-import Image from 'next/image'
-
-import teamMember01 from '../assets/team-member-01.jpg'
-
 import { TeamMemberCard } from './TeamMemberCard'
+
 import data from '../data/dataMockup.json'
 
 export function AboutTeam() {
