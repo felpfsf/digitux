@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { ProjectsDetailed } from '../../components/ProjectsDetailed'
 import { ProjectsHero } from '../../components/ProjectsHero'
 import { Tesimonials } from '../../components/Testimonials'
 
@@ -10,6 +11,7 @@ export default function Projects() {
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
       className='max-w-[1440px] w-full mx-auto'>
       <ProjectsHero />
+      <ProjectsDetailed />
       <Tesimonials />
     </motion.section>
   )
