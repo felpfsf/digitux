@@ -3,12 +3,12 @@ import { FiArrowRight, FiMessageSquare } from 'react-icons/fi'
 
 export function AboutHero() {
   return (
-    <div className='max-w-3xl w-full mx-auto pt-28 px-4 sm:flex flex-col justify-center items-center'>
+    <section className='max-w-3xl w-full mx-auto pt-28 px-4 sm:flex flex-col items-center justify-center'>
       <h2 className='xl:text-[22px] font-bold'>About Us</h2>
       <h1 className='mt-4 text-4xl xl:text-[40px] font-bold sm:text-center'>
         What we do is what make us Who we are
       </h1>
-      <p className='mt-8 text-lg text-white/80 sm:text-center'>
+      <p className='mt-8 text-lg xl:text-[22px] text-white/60 sm:text-center leading-relaxed'>
         DigitUx is a Digital agencay founded 2022, that create User Centred
         Product that help her client to evolve ,our core idealogy is Perfection
         , our goal is to make usefull and easy to use products And help people
@@ -28,6 +28,6 @@ export function AboutHero() {
           <FiArrowRight />
         </Link>
       </div>
-    </div>
+    </section>
   )
 }

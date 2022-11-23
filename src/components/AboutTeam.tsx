@@ -11,7 +11,7 @@ import data from '../data/dataMockup.json'
 
 export function AboutTeam() {
   return (
-    <div className='w-full mt-32 px-4 xl:flex items-center'>
+    <section className='w-full mt-32 px-4 xl:flex items-center'>
       <div className='flex flex-col mx-auto gap-4 max-w-[350px]'>
         <h2 className='text-[22px] font-bold'>The team</h2>
         <h1 className='text-4xl xl:text-[40px] font-bold leading-[60px] sm:text-center xl:text-left'>
@@ -27,6 +27,6 @@ export function AboutTeam() {
         ))}
         <SwiperButton />
       </Swiper>
-    </div>
+    </section>
   )
 }
