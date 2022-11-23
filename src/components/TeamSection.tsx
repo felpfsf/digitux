@@ -1,15 +1,6 @@
-import Image from 'next/image'
-import { FiArrowLeft, FiArrowRight } from 'react-icons/fi'
-import teamMemberJamila from '../assets/team-member-jamila.png'
-import tikTik from '../assets/Titik-titik.png'
-
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import {
-  SwiperButton,
-  SwiperButtonNext,
-  SwiperButtonPrev
-} from './SwiperButton'
+import { SwiperButton } from './SwiperButton'
 
 import { TeamMemberCard } from './TeamMemberCard'
 
