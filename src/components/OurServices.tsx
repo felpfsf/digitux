@@ -1,22 +1,111 @@
-import { ServiceCard } from './ServiceCard'
+import Image from 'next/image'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+import { SwiperButton } from './SwiperButton'
 
-import data from '../data/dataMockup.json'
+import servImg from '../assets/services-01.jpg'
+import tikTik from '../assets/Titik-titik.png'
 
 export function OurServices() {
   return (
-    <section className='w-full mt-32 px-4'>
-      <h2 className='xl:text-[22px] font-semibold leading-relaxed'>
-        The Services we offer
-      </h2>
-      <div className='flex flex-wrap sm:items-center sm:justify-center xl:grid grid-cols-4 grid-rows-2 gap-10'>
-        <h1 className='mt-4 text-[22px] xl:text-[40px] font-bold leading-9 xl:leading-normal col-span-2'>
-          We offer a variaty of services to help you to grow and build your
-          brand and help you with developing your Products
-        </h1>
-        {data.services.map(props => (
-          <ServiceCard key={props.id} {...props} />
-        ))}
-      </div>
+    <section className='w-full mt-40 px-4'>
+      <h2 className='xl:text-[22px] font-semibold'>Our Services</h2>
+      {/* swiper */}
+      <Swiper>
+        {/* Card #1 */}
+        <SwiperSlide>
+          <div className='mt-4 flex flex-col items-center justify-center md:flex-row gap-11 xl:gap-36'>
+            <div className='flex-1 max-w-[530px]'>
+              <h2 className='text-[22px] xl:text-3xl font-bold'>
+                Ui /Ux , Web Design
+              </h2>
+              <p className='mt-4 text-lg text-white/60 leading-relaxed'>
+                With a team of the best Digital Product Designer In the world at
+                your hand , their goal is to create usefull andeasy to use
+                products for you potentials users
+              </p>
+            </div>
+            <div className='relative h-[350px] w-[350px] mt-11 self-center'>
+              <Image src={servImg} alt={''} className='w-full h-full' />
+              <Image
+                src={tikTik}
+                alt={''}
+                className='-z-10 absolute -top-6 -right-24 hidden xl:block'
+              />
+            </div>
+          </div>
+        </SwiperSlide>
+        {/* Card #2 */}
+        <SwiperSlide>
+          <div className='mt-4 flex flex-col items-center justify-center md:flex-row gap-11 xl:gap-36'>
+            <div className='flex-1 max-w-[530px]'>
+              <h2 className='text-[22px] xl:text-3xl font-bold'>
+                Web/App Development
+              </h2>
+              <p className='mt-4 text-lg text-white/60 leading-relaxed'>
+                With a team of the best Digital Product Designer In the world at
+                your hand , their goal is to create usefull andeasy to use
+                products for you potentials users
+              </p>
+            </div>
+            <div className='relative h-[350px] w-[350px] mt-11 self-center'>
+              <Image src={servImg} alt={''} className='w-full h-full' />
+              <Image
+                src={tikTik}
+                alt={''}
+                className='-z-10 absolute -top-6 -right-24 hidden xl:block'
+              />
+            </div>
+          </div>
+        </SwiperSlide>
+        {/* Card #3 */}
+        <SwiperSlide>
+          <div className='mt-4 flex flex-col items-center justify-center md:flex-row gap-11 xl:gap-36'>
+            <div className='flex-1 max-w-[530px]'>
+              <h2 className='text-[22px] xl:text-3xl font-bold'>
+                Marketing Digital,Social Media
+              </h2>
+              <p className='mt-4 text-lg text-white/60 leading-relaxed'>
+                With a team of the best Digital Product Designer In the world at
+                your hand , their goal is to create usefull andeasy to use
+                products for you potentials users
+              </p>
+            </div>
+            <div className='relative h-[350px] w-[350px] mt-11 self-center'>
+              <Image src={servImg} alt={''} className='w-full h-full' />
+              <Image
+                src={tikTik}
+                alt={''}
+                className='-z-10 absolute -top-6 -right-24 hidden xl:block'
+              />
+            </div>
+          </div>
+        </SwiperSlide>
+        {/* Card #4 */}
+        <SwiperSlide>
+          <div className='mt-4 flex flex-col items-center justify-center md:flex-row gap-11 xl:gap-36'>
+            <div className='flex-1 max-w-[530px]'>
+              <h2 className='text-[22px] xl:text-3xl font-bold'>
+                Brand Stratgey &Art Diraction
+              </h2>
+              <p className='mt-4 text-lg text-white/60 leading-relaxed'>
+                With a team of the best Digital Product Designer In the world at
+                your hand , their goal is to create usefull andeasy to use
+                products for you potentials users
+              </p>
+            </div>
+            <div className='relative h-[350px] w-[350px] mt-11 self-center'>
+              <Image src={servImg} alt={''} className='w-full h-full' />
+              <Image
+                src={tikTik}
+                alt={''}
+                className='-z-10 absolute -top-6 -right-24 hidden xl:block'
+              />
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperButton />
+      </Swiper>
     </section>
   )
 }
