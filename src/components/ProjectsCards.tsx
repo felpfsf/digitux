@@ -8,14 +8,14 @@ interface IImageProps {
 
 export const ProjectsCards = ({ imgUrl, spec, project }: IImageProps) => {
   return (
-    <div className='w-[350px] last:row-start-1 last:row-span-2 last:col-start-3'>
-      <div className='last:h-[305px] last:xl:h-full last:overflow-hidden'>
+    <div className='w-[350px] last:row-start-1 last:row-span-2 last:col-start-3 xl:last-of-type:h-full xl:last-of-type:overflow-visible'>
+      <div className='h-[305px] xl:h-fit overflow-hidden'>
         <Image
           src={`/${imgUrl}`}
           width={350}
           height={659}
           alt={''}
-          className='w-full h-full last:h-auto'
+          className='w-full'
         />
       </div>
       <div className='mt-2'>
