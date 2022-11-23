@@ -29,13 +29,13 @@ export function Hero() {
           <div className='mt-6 flex flex-col xl:flex-row items-center gap-8'>
             <a
               href=''
-              className='w-full text-sm font-semibold py-4 bg-digitux-primary rounded flex-1 flex items-center justify-center gap-2'>
+              className='w-full text-sm font-semibold py-4 bg-digitux-primary rounded flex-1 flex items-center justify-center gap-2 hover:filter hover:contrast-200 transition-color ease-in-out duration-300'>
               Let&apos;s Talk
               <FiMessageSquare size={24} />
             </a>
             <Link
               href={'/services'}
-              className='flex items-center gap-2 hover:underline underline-offset-4'>
+              className='flex items-center gap-2 hover:border-b-2 ease-in-out duration-75'>
               Check our Services
               <FiArrowRight className='' />
             </Link>
