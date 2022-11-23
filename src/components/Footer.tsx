@@ -17,15 +17,17 @@ export function Footer() {
   ]
 
   return (
-    <footer className='max-w-[1440px] w-full mx-auto mt-40 mb-5 px-4 lg:px-0 flex items-baseline justify-between gap-4'>
-      <div className='flex-1'>
+    <footer className='max-w-[1440px] w-full mx-auto mt-40 mb-5 px-4 flex items-start justify-between gap-4'>
+
+      <div className='max-w-[255px]'>
         <h1 className='text-[32px] font-semibold'>DigitUX</h1>
         <p className='mt-5 text-sm'>
           DigitUx is a Digital agency that create User centred Product that help
           her client to evolve
         </p>
       </div>
-      <div className='hidden xl:block flex-1'>
+
+      <div className='hidden lg:block'>
         <h1 className='text-lg font-semibold'>About Us</h1>
         <ul className='mt-6 flex flex-col gap-4'>
           {navLinks.map(({id, linkUrl, linkLabel}) => (
@@ -37,7 +39,8 @@ export function Footer() {
           ))}
         </ul>
       </div>
-      <div className='hidden xl:block'>
+
+      <div className='hidden lg:block'>
         <h1 className='text-lg font-semibold'>Follow Us</h1>
         <ul className='mt-6 flex flex-col gap-4'>
           {socialLinks.map(({id, icon, linkLabel}) => (
@@ -45,7 +48,8 @@ export function Footer() {
           ))}
         </ul>
       </div>
-      <div className='flex-1'>
+
+      <div className='max-w-[250px]'>
         <h1 className='text-lg font-semibold'>Get In touch with Us</h1>
         <p className='mt-4 text-sm'>Need Answers? Need help ? Just email us</p>
         <label className='relative'>
@@ -53,6 +57,7 @@ export function Footer() {
           <FiSend className='absolute top-1 right-1 text-digitux-primary'/>
         </label>
       </div>
+
     </footer>
   )
 }
