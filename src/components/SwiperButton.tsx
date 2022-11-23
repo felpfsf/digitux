@@ -28,7 +28,7 @@ const SwiperButtonNext = () => {
 
 export const SwiperButton = () => {
   return (
-    <div className='mt-14 flex justify-center gap-12'>
+    <div className='hidden mt-14 lg:flex justify-center gap-12'>
       <SwiperButtonPrev />
       <SwiperButtonNext />
     </div>
