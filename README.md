@@ -6,23 +6,22 @@ A Digital Marketing and Web Developer Agency website. It includes a hero section
 
 ![image](/docs/title_banner.png)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/felpfsf/digitux-web-agency) ![GitHub language count](https://img.shields.io/github/languages/count/felpfsf/digitux-web-agency) ![GitHub top language](https://img.shields.io/github/languages/top/felpfsf/digitux-web-agency)
+![GitHub repo size](https://img.shields.io/github/repo-size/felpfsf/digitux) ![GitHub language count](https://img.shields.io/github/languages/count/felpfsf/digitux) ![GitHub top language](https://img.shields.io/github/languages/top/felpfsf/digitux)
 
 ---
 
 ## Learning
 
-Learning and practigin react-router-dom, framer motion for transitioning effects and tailwind.
+Learning and practicing NextJS, framer motion for transitioning effects and tailwind.
 
 ## 🛠 Stacks
 
 **Frontend:**
 
-- React
-- [React Router Dom]
+- [Next.js] w/ TypeScript
 - [TailwindCSS]
 - [Framer Motion]
-- [Vite Bundler]
+- [Swiper]
 
 ## Features
 
@@ -30,7 +29,7 @@ Learning and practigin react-router-dom, framer motion for transitioning effects
 
 ## Live Demo
 
-Check [here](https://digitux-web-agency.vercel.app/)
+Check [here](https://digitux.vercel.app/)
 
 ## Autor
 
