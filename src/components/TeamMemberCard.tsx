@@ -27,7 +27,7 @@ export const TeamMemberCard = ({
           quality={100}
         />
         <Image
-          className='absolute -top-6 -right-24 hidden xl:block'
+          className='absolute -top-6 -right-24 hidden md:block'
           src={tikTik}
           alt={''}
         />
