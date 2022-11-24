@@ -8,12 +8,12 @@ interface IAccordionProps {
 }
 
 export function AccordionItem({ answer, question }: IAccordionProps) {
-  const [clicked, setClicked] = useState(false)
+  const [isAcdOpen, setIsAcdOpen] = useState(false)
 
-  const contentEl = useRef<HTMLDivElement>(null)
+  const answDiv = useRef<HTMLDivElement>(null)
 
   const handleToggleAccordion = () => {
-    setClicked(prev => !prev)
+    setIsAcdOpen(prev => !prev)
   }
 
   return (
@@ -22,14 +22,14 @@ export function AccordionItem({ answer, question }: IAccordionProps) {
         className='w-full font-medium py-4 px-6 flex items-center justify-between'
         onClick={handleToggleAccordion}>
         {question}
-        <span className=''>{clicked ? <FiMinus /> : <FiPlus />}</span>
+        <span className=''>{isAcdOpen ? <FiMinus /> : <FiPlus />}</span>
       </button>
       <div
-        ref={contentEl}
+        ref={answDiv}
         className='px-6 overflow-hidden transition-all ease-in-out duration-300'
         style={
-          clicked
-            ? { height: contentEl.current?.scrollHeight }
+          isAcdOpen
+            ? { height: answDiv.current?.scrollHeight }
             : { height: '0px' }
         }>
         <div className='pb-4'>{answer}</div>
