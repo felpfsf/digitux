@@ -6,7 +6,7 @@ import { Tesimonials } from '../../components/Testimonials'
 
 export default function Services() {
   return (
-    <motion.section
+    <motion.main
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
@@ -15,6 +15,6 @@ export default function Services() {
       <OurProcess />
       <OurServices />
       <Tesimonials />
-    </motion.section>
+    </motion.main>
   )
 }

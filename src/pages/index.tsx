@@ -9,7 +9,7 @@ import { Tesimonials } from '../components/Testimonials'
 
 export default function Home() {
   return (
-    <motion.section
+    <motion.main
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
@@ -20,6 +20,6 @@ export default function Home() {
       <TeamSection />
       <OurProjects />
       <Tesimonials />
-    </motion.section>
+    </motion.main>
   )
 }
