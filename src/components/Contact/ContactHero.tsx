@@ -11,7 +11,7 @@ export function ContactHero() {
         An expert at your services
       </h1>
       {/* form */}
-      <div className='relative z-10 w-full h-screen bg-digitux-dark'>
+      <div className='relative z-10 w-full bg-digitux-dark'>
         <Form />
       </div>
       <Image
