@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
-import { OurProcess } from '../../components/OurProcess'
-import { OurServices } from '../../components/OurServices'
-import { ServicesHero } from '../../components/ServicesHero'
+import { OurProcess } from '../../components/OurServices/OurProcess'
+import { OurServices } from '../../components/OurServices/OurServices'
+import { ServicesHero } from '../../components/OurServices/ServicesHero'
 import { Tesimonials } from '../../components/Testimonials'
 
 export default function Services() {

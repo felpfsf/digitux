@@ -1,11 +1,12 @@
 import Link from 'next/link'
+
 import { FiArrowRight, FiMessageSquare } from 'react-icons/fi'
 
 export function ServicesHero() {
   return (
     <section className='max-w-3xl w-full mx-auto pt-28 px-4 sm:flex flex-col items-center justify-center'>
       <h2 className='xl:text-[22px] font-bold'>Our Services</h2>
-      <h1 className='mt-4 text-4xl xl:text-[40px] font-bold sm:text-center'>
+      <h1 className='mt-4 text-[40px] font-bold sm:text-center leading-[70px]'>
         Services We Offres
       </h1>
       <p className='mt-8 text-lg xl:text-[22px] text-white/60 sm:text-center leading-relaxed'>

@@ -5,7 +5,7 @@ export function AboutHero() {
   return (
     <section className='max-w-3xl w-full mx-auto pt-28 px-4 sm:flex flex-col items-center justify-center'>
       <h2 className='xl:text-[22px] font-bold'>About Us</h2>
-      <h1 className='mt-4 text-4xl xl:text-[40px] font-bold sm:text-center'>
+      <h1 className='mt-4 text-4xl xl:text-[40px] font-bold sm:text-center leading-[60px] xl:leading-[70px]'>
         What we do is what make us Who we are
       </h1>
       <p className='mt-8 text-lg xl:text-[22px] text-white/60 sm:text-center leading-relaxed'>

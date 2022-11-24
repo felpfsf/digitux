@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { FiChevronRight } from 'react-icons/fi'
-import { ProjectsCards } from './ProjectsCards'
-import data from '../data/dataMockup.json'
+import { ProjectCard } from '../Cards/ProjectCard'
+import data from '../../data/dataMockup.json'
 
 export function OurProjects() {
   return (
@@ -14,7 +14,7 @@ export function OurProjects() {
       </h1>
       <div className='mt-28 flex flex-wrap items-center justify-center gap-10 xl:gap-0 xl:grid grid-cols-3 last:cursor-pointer'>
         {data.projects.map(props => (
-          <ProjectsCards key={props.id} {...props} />
+          <ProjectCard key={props.id} {...props} />
         ))}
       </div>
       <div className='flex justify-center'>

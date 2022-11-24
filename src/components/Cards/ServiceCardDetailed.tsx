@@ -1,5 +1,6 @@
 import Image, { StaticImageData } from 'next/image'
-import tikTik from '../assets/Titik-titik.png'
+
+import tikTik from '../../assets/Titik-titik.png'
 
 interface IServiceCardDetailedProps {
   title: string
@@ -16,7 +17,7 @@ export function ServiceCardDetailed({
     <>
       <div className='mt-4 flex flex-col items-center justify-center md:flex-row gap-11 xl:gap-36'>
         <div className='flex-1 max-w-[530px]'>
-          <h2 className='text-[22px] xl:text-3xl font-bold'>{title}</h2>
+          <h2 className='text-lg sm:text-[22px] xl:text-3xl font-bold'>{title}</h2>
           <p className='mt-4 text-lg text-white/60 leading-relaxed'>
             {description}
           </p>

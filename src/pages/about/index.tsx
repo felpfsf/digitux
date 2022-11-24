@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
-import { AboutHero } from '../../components/AboutHero'
-import { AboutTeam } from '../../components/AboutTeam'
+import { AboutHero } from '../../components/About/AboutHero'
+import { AboutTeam } from '../../components/About/AboutTeam'
 import { Tesimonials } from '../../components/Testimonials'
 
 export default function About() {

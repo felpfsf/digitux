@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { SwiperButton } from './SwiperButton'
+import { SwiperButton } from '../Swiper/SwiperButton'
 
-import { TeamMemberCard } from './TeamMemberCard'
+import { TeamMemberCard } from '../Cards/TeamMemberCard'
 
-import data from '../data/dataMockup.json'
+import data from '../../data/dataMockup.json'
 
 export function TeamSection() {
   return (

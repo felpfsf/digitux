@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { SwiperButton } from './SwiperButton'
+import { SwiperButton } from '../Swiper/SwiperButton'
 
-import { ServiceCardDetailed } from './ServiceCardDetailed'
+import { ServiceCardDetailed } from '../Cards/ServiceCardDetailed'
 
-import servImg from '../assets/services-01.jpg'
+import servImg from '../../assets/services-01.jpg'
 
 export function OurServices() {
   const dataServices = [

@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { SwiperButton } from './SwiperButton'
+import { SwiperButton } from './Swiper/SwiperButton'
 
-import { TestimonialCard } from './TestimonialCard'
+import { TestimonialCard } from './Cards/TestimonialCard'
 
 import data from '../data/dataMockup.json'
 

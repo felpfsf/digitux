@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import tikTik from '../assets/Titik-titik.png'
+import tikTik from '../../assets/Titik-titik.png'
 
 interface ITeamMemberCardProps {
   imgUrl: string

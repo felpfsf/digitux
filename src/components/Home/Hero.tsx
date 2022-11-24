@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 import { FiArrowRight, FiMessageSquare } from 'react-icons/fi'
 
-import arrow from '../assets/hero__arrow.png'
-import heroBanner from '../assets/hero__banner.png'
+import arrow from '../../assets/hero__arrow.png'
+import heroBanner from '../../assets/hero__banner.png'
 
 export function Hero() {
   return (
@@ -18,7 +18,7 @@ export function Hero() {
             className='hidden 2xl:block w-auto h-[432px] absolute top-4 -left-28'
           />
           <p className='font-bold xl:text-[22px]'>Hello,</p>
-          <h1 className='text-[40px] xl:text-[48px] font-bold mt-4 leading-[80px]'>
+          <h1 className='text-[40px] xl:text-[48px] font-bold mt-4 leading-[60px] xl:leading-[80px]'>
             We Help People To Bring Their Ideas Alive
           </h1>
           <p className='text-lg xl:text-[22px] text-white/80 font-light leading-relaxed mt-8'>

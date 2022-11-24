@@ -6,7 +6,7 @@ interface IImageProps {
   project: string
 }
 
-export const ProjectsCards = ({ imgUrl, spec, project }: IImageProps) => {
+export const ProjectCard = ({ imgUrl, spec, project }: IImageProps) => {
   return (
     <div className='w-[350px] last:row-start-1 last:row-span-2 last:col-start-3 xl:last-of-type:h-full xl:last-of-type:overflow-visible'>
       <div className='h-[305px] xl:h-fit overflow-hidden'>

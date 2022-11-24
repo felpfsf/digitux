@@ -1,6 +1,6 @@
-import { ServiceCard } from './ServiceCard'
+import { ServiceCard } from '../Cards/ServiceCard'
 
-import data from '../data/dataMockup.json'
+import data from '../../data/dataMockup.json'
 
 export function ServicesWeOffer() {
   return (

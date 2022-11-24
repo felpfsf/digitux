@@ -1,11 +1,11 @@
 import Image from 'next/image'
 
-import logoMicrosoft from '../assets/client_microsoft.png'
-import logoGoogle from '../assets/client_google.png'
-import logoSpotify from '../assets/client_spotify.png'
-import logoTesla from '../assets/client_tesla.png'
-import logoYassir from '../assets/client_yassir.png'
-import logoTikTok from '../assets/client_tiktok.png'
+import logoMicrosoft from '../../assets/client_microsoft.png'
+import logoGoogle from '../../assets/client_google.png'
+import logoSpotify from '../../assets/client_spotify.png'
+import logoTesla from '../../assets/client_tesla.png'
+import logoYassir from '../../assets/client_yassir.png'
+import logoTikTok from '../../assets/client_tiktok.png'
 
 export function Clients() {
   return (

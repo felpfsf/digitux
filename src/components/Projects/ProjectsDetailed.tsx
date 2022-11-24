@@ -1,10 +1,10 @@
-import { ProjectCardDetailed } from './ProjectCardDetailed'
+import { ProjectCardDetailed } from '../Cards/ProjectCardDetailed'
 
-import proj01 from '../assets/project-01.png'
-import proj02 from '../assets/project-02.png'
-import proj03 from '../assets/project-03.png'
-import proj04 from '../assets/project-04.png'
-import proj05 from '../assets/project-05.png'
+import proj01 from '../../assets/project-01.png'
+import proj02 from '../../assets/project-02.png'
+import proj03 from '../../assets/project-03.png'
+import proj04 from '../../assets/project-04.png'
+import proj05 from '../../assets/project-05.png'
 
 export function ProjectsDetailed() {
   const cards = [
@@ -53,7 +53,7 @@ export function ProjectsDetailed() {
     <section className='w-full mt-32 px-4'>
       <div className='flex flex-col items-center gap-20'>
         {cards.map(props => (
-          <ProjectCardDetailed key={props.id} {...props}/>
+          <ProjectCardDetailed key={props.id} {...props} />
         ))}
       </div>
     </section>

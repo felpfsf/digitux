@@ -1,5 +1,7 @@
-import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
+
+import Image, { StaticImageData } from 'next/image'
+
 import { FiChevronRight } from 'react-icons/fi'
 
 interface IProjectCardDetailedProps {

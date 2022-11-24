@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
-import { ProjectsDetailed } from '../../components/ProjectsDetailed'
-import { ProjectsHero } from '../../components/ProjectsHero'
+import { ProjectsDetailed } from '../../components/Projects/ProjectsDetailed'
+import { ProjectsHero } from '../../components/Projects/ProjectsHero'
 import { Tesimonials } from '../../components/Testimonials'
 
 export default function Projects() {

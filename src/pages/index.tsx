@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion'
 
-import { Hero } from '../components/Hero'
-import { Clients } from '../components/Clients'
-import { ServicesWeOffer } from '../components/ServicesWeOffer'
-import { TeamSection } from '../components/TeamSection'
-import { OurProjects } from '../components/OurProjects'
+import { Hero } from '../components/Home/Hero'
+import { Clients } from '../components/Home/Clients'
+import { ServicesWeOffer } from '../components/Home/ServicesWeOffer'
+import { TeamSection } from '../components/Home/TeamSection'
+import { OurProjects } from '../components/Home/OurProjects'
 import { Tesimonials } from '../components/Testimonials'
 
 export default function Home() {

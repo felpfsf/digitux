@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { SwiperButton } from './SwiperButton'
+import { SwiperButton } from '../Swiper/SwiperButton'
 
-import { TeamMemberCard } from './TeamMemberCard'
+import { TeamMemberCard } from '../Cards/TeamMemberCard'
 
-import data from '../data/dataMockup.json'
+import data from '../../data/dataMockup.json'
 
 export function AboutTeam() {
   return (
@@ -16,7 +16,7 @@ export function AboutTeam() {
         </h1>
       </div>
 
-      <Swiper slidesPerView={2} className='mt-20'>
+      <Swiper slidesPerView={2} className='mt-16'>
         {data.teamMembers.map(props => (
           <SwiperSlide key={props.id} className='ml-2'>
             <TeamMemberCard {...props} />
