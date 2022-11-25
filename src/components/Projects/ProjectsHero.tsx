@@ -4,7 +4,7 @@ import { FiArrowRight, FiMessageSquare } from 'react-icons/fi'
 export function ProjectsHero() {
   const stats = [
     { id: 1, title: 'Happy Clients', number: '150' },
-    { id: 2, title: 'Project Done', number: '450' },
+    { id: 2, title: 'Projects Done', number: '450' },
     { id: 3, title: 'Solutions Created', number: '10' },
     { id: 4, title: 'Bussiness Growed', number: '25' }
   ]
@@ -15,8 +15,8 @@ export function ProjectsHero() {
         Project We Realised
       </h1>
       <p className='mt-8 text-lg xl:text-[22px] text-white/60 sm:text-center leading-relaxed'>
-        Our team helped alot of startup and company to realise their Products
-        and helped thousnd of client to grow their business
+        Our team has helped many startups and companies to realize their
+        products and helped thousands of customers to grow their business.
       </p>
       <div className='flex flex-col md:flex-col-reverse items-center'>
         <div className='w-full sm:w-3/4 mt-11 flex flex-col items-center justify-center gap-8'>

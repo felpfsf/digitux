@@ -34,21 +34,17 @@ export function OurProcess() {
       <h2 className='text-[22px] font-bold'>Our Process</h2>
       <div className='flex flex-col md:flex-row items-start'>
         <h1 className='mt-4 text-4xl xl:text-[40px] leading-relaxed font-bold flex-1'>
-          Our Working Process help you to get the best from our team skill
+          Our work process helps you get the best out of our team&apos;s ability
         </h1>
         <p className='mt-8 text-lg xl:text-[22px] text-white/60 leading-relaxed flex-1'>
-          With Our team knowloadg of different process
+          With Our team knowledge
           <br />
           We Choose the perfect process to suit the Development of your Product
         </p>
       </div>
       <div className='mt-16 xl:mt-40 flex flex-wrap sm:justify-center gap-14 relative'>
         <div className='hidden xl:block'>
-          <Image
-            src={arrow}
-            alt={''}
-            className='absolute -bottom-32 left-48'
-          />
+          <Image src={arrow} alt={''} className='absolute -bottom-32 left-48' />
           <Image
             src={arrow}
             alt={''}

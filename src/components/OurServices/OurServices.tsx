@@ -10,7 +10,7 @@ export function OurServices() {
   const dataServices = [
     {
       id: 1,
-      title: 'Ui /Ux , Web Design',
+      title: 'UI/UX and Web Design',
       description:
         'With a team of the best Digital Product Designer In the world at your hand , their goal is to create usefull andeasy to use products for you potentials users',
       imgUrl: servImg
@@ -24,18 +24,32 @@ export function OurServices() {
     },
     {
       id: 3,
-      title: 'Marketing Digital,Social Media',
+      title: 'Marketing Digital, Social Media',
       description:
         'With a team of the best Digital Product Designer In the world at your hand , their goal is to create usefull andeasy to use products for you potentials users',
       imgUrl: servImg
     },
     {
       id: 4,
-      title: 'Brand Stratgey &Art Diraction',
+      title: 'Brand Strategy & Art Direction',
       description:
         'With a team of the best Digital Product Designer In the world at your hand , their goal is to create usefull andeasy to use products for you potentials users',
       imgUrl: servImg
-    }
+    },
+    {
+      id: 5,
+      title: 'Visual Identity Logo Brand',
+      description:
+        'With a team of the best Digital Product Designer In the world at your hand , their goal is to create usefull andeasy to use products for you potentials users',
+      imgUrl: servImg
+    },
+    {
+      id: 6,
+      title: 'Video / Ads Production',
+      description:
+        'With a team of the best Digital Product Designer In the world at your hand , their goal is to create usefull andeasy to use products for you potentials users',
+      imgUrl: servImg
+    },
   ]
   return (
     <section className='w-full mt-40 px-4'>

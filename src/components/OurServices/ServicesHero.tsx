@@ -10,9 +10,9 @@ export function ServicesHero() {
         Services We Offres
       </h1>
       <p className='mt-8 text-lg xl:text-[22px] text-white/60 sm:text-center leading-relaxed'>
-        With Our Awesome team we offres a variaty of services from UI/UX design
-        to Video Productions,Our Goal is to help you on your Road to Create your
-        product
+        With our awesome team we offers a variety of services from UI/UX design
+        to Video Productions, our goal is to help you on your road to create
+        your product
       </p>
       <div className='w-full sm:w-3/4 mt-11 flex flex-col sm:flex-row items-center justify-center gap-8'>
         <Link

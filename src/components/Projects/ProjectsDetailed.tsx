@@ -11,9 +11,9 @@ export function ProjectsDetailed() {
     {
       id: 1,
       type: 'UI/UX Design',
-      title: 'Delex Relay, a delivery platfrome',
+      title: 'Delex Relay, a delivery platform',
       description:
-        'Delex is a Delivery Platform for bussiness owner And indivudial who want to send packages from a point to an other ,Delex offer a tracking system too',
+        'Delex is a delivery platform for businessmen and individuals who want to send packages from one point to another and a tracking system as well',
       imgUrl: proj01
     },
     {
@@ -21,7 +21,7 @@ export function ProjectsDetailed() {
       type: 'Web / app Development',
       title: 'Cooke Me, Fresh food At your Home',
       description:
-        'Cooke me is an platform that offer fresh meal with a cheap price and allow indivudial to sell their meals',
+        'Cooke me is a platform that offers fresh meals at a cheap price and allows individual to sell their meals',
       imgUrl: proj02
     },
     {
@@ -45,7 +45,7 @@ export function ProjectsDetailed() {
       type: 'UI/UX Design',
       title: 'ADOC, Your Online Medical Appoinments',
       description:
-        'ADOC Is an online Medical appoinment that allow user to take an appoinment with a doctor, it alos work as a medical files holder',
+        'ADOC Is an online Medical appoinment that allow user to take an appoinment with a doctor, it also work as a medical files holder',
       imgUrl: proj05
     }
   ]

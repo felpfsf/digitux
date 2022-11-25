@@ -11,7 +11,7 @@ export function Tesimonials() {
     <section className='w-full mt-32 px-4'>
       <h2 className='xl:text-[22px] font-semibold'>Testimonial</h2>
       <h1 className='mt-4 text-[22px] xl:text-[34px] font-bold max-w-[730px]'>
-        You still hesitate about working with Us ? Check what They say about Us
+        You still hesitate about working with Us ? Check what they say about Us
       </h1>
       {/* To-do: testimonial slider */}
       <div className='hidden md:block'>

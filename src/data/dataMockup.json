@@ -65,52 +65,52 @@
     {
       "id": 1,
       "title": "UI/UX Design ,Web Design",
-      "description": "Makeing your product clean and easy to use it the important thing for us"
+      "description": "Making your product clean and easy to use it is the important thing for us"
     },
     {
       "id": 2,
       "title": "Web/App Development",
-      "description": "Our Team will use the top  technologies to develope your product"
+      "description": "Our Team will use the top technologies to develop your product"
     },
     {
       "id": 3,
       "title": "Marketing Digital,Social Media",
-      "description": "Grow your communty with our inbound marketing and social media merketing"
+      "description": "Grow your communty with our inbound marketing and social media marketing"
     },
     {
       "id": 4,
-      "title": "Brand Stratgey &Art Diraction",
-      "description": "Help you to create an unique brand that stay in Clients Head"
+      "title": "Brand Strategy & Art Direction",
+      "description": "Let us help you create a unique brand so your business can stand out."
     },
     {
       "id": 5,
       "title": "Visual Identity Logo Brand",
-      "description": "A logo Can make a big diffrance our team will Help you with that"
+      "description": "A logo can make a big difference and our team will help you with that"
     },
     {
       "id": 6,
       "title": "Video / Ads Production",
-      "description": "What better way to reach user then with a good video to win their trust"
+      "description": "What's the best way to reach the user to gain their trust? We can produce your ads videos professionally"
     }
   ],
   "testimonials": [
     {
       "id": 1,
-      "testimonial": "Our team of digital product creators and Tch Bring Skilled will take your idea to the next level and help you with your product",
+      "testimonial": "They helped us develop a solution to migrate our legacy system to the latest technology, bringing security and reliability",
       "picUrl": "testimonial-pic-01.png",
       "name": "Smail yefsssah",
       "role": "CEO Innova"
     },
     {
       "id": 2,
-      "testimonial": "Our team of digital product creators and Tch Bring Skilled will take your idea to the next level and help you with your product",
+      "testimonial": "It brought a new vision to develop our brand, defining a visual identity, new marketing strategies and management of our brand on social networks",
       "picUrl": "testimonial-pic-02.png",
       "name": "Djamila Malak",
       "role": "Co-Founder RobaKabyle"
     },
     {
       "id": 3,
-      "testimonial": "Our team of digital product creators and Tch Bring Skilled will take your idea to the next level and help you with your product",
+      "testimonial": "DigitUX was very important for our company, it helped us to develop our own brand, producing institutional videos and managing our community",
       "picUrl": "testimonial-pic-03.png",
       "name": "Esteban Schneider",
       "role": "CTO Ratke - Shields"

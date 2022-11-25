@@ -18,8 +18,8 @@ export function Faq() {
           Here are Some Answer For Frequntly asked Questions
         </h1>
         <p className='text-[22px] text-white/60 mt-10'>
-          We got alot of Message With the same Questions so here are some fast
-          answer for populare Question
+          We got alot of Message with the same questions, so here are some fast
+          answer for popular Question
         </p>
       </div>
       {/* Accordion */}

@@ -14,11 +14,10 @@ export function TeamSection() {
           The Team behind DigitUX
         </h2>
         <h1 className='mt-4 text-[22px] xl:text-[34px] font-bold'>
-          A team of creative Who Excited to help you with your Idea
+          A creative team who are excited to help you with your idea
         </h1>
         <p className='mt-6 text-lg text-white/80'>
-          Our team of digital product creators and Tch Bring Skilled will take
-          your idea to the next level and help you with your product
+        Our skilled team of digital product creators will take your idea to the next level, raising the quality of your product
         </p>
       </div>
       <Swiper className='flex-1'>

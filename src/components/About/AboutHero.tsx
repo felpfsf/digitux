@@ -9,14 +9,11 @@ export function AboutHero() {
         What we do is what make us Who we are
       </h1>
       <p className='mt-8 text-lg xl:text-[22px] text-white/60 sm:text-center leading-relaxed'>
-        DigitUx is a Digital agencay founded 2022, that create User Centred
-        Product that help her client to evolve ,our core idealogy is Perfection
-        , our goal is to make usefull and easy to use products And help people
-        to grow their business,
+      DigitUx is a digital marketing agency founded 2022, that create User Centred Product that help its client to evolve. Our core idealogy is <em>perfection</em>, our goal is to make <em>usefull</em> and <em>easy to use</em> products and help people to grow their business
       </p>
       <div className='w-full sm:w-3/4 mt-11 flex flex-col sm:flex-row items-center justify-center gap-8'>
         <Link
-          href=''
+          href='/contact'
           className='w-full text-sm font-semibold py-4 bg-digitux-primary rounded flex flex-1 items-center justify-center gap-2 hover:filter hover:contrast-200 transition-color ease-in-out duration-300'>
           Let&apos;s Talk
           <FiMessageSquare size={24} />
