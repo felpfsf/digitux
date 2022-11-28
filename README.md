@@ -18,14 +18,14 @@ Learning and practicing NextJS, framer motion for transitioning effects and tail
 
 **Frontend:**
 
-- [Next.js] w/ TypeScript
-- [TailwindCSS]
-- [Framer Motion]
-- [Swiper]
+- [Next.js-TypeScript](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Framer-Motion](https://www.framer.com/motion/)
+- [Swiper](https://swiperjs.com/)
 
 ## Features
 
-- [x] Mobile support
+- [x] Full Mobile support
 
 ## Live Demo
 
