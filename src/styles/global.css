@@ -4,5 +4,5 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  @apply bg-gray-100 dark:bg-digitux-dark text-white font-poppins;
+  @apply bg-digitux-dark text-white font-poppins;
 }
