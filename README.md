@@ -4,7 +4,7 @@ A Digital Marketing and Web Developer Agency website. It includes a hero section
 
 ---
 
-![image](/docs/title_banner.png)
+![image](/docs/title_banner-2.png)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/felpfsf/digitux) ![GitHub language count](https://img.shields.io/github/languages/count/felpfsf/digitux) ![GitHub top language](https://img.shields.io/github/languages/top/felpfsf/digitux)
 
